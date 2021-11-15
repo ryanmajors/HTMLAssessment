@@ -72,6 +72,9 @@ blockquote {
   z-index: -1;
   opacity: .30;
 }
+#teamRoster>li {
+  list-style-type: none;
+}
 
 #teamRoster ol > li:first-child {
   font-weight: bold;
