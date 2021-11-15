@@ -1,0 +1,81 @@
+.subjectHeader {
+  color: blue;
+  font-family: sans-serif;
+}
+#scoreBoard th, td{
+  border: 1px solid black;
+  text-align: center;
+}
+thead tr{
+  background-color: lightblue;
+}
+tbody tr{
+  background-color: lightgreen;
+}
+tfoot tr{
+  background-color: pink;
+}
+th {
+  font-weight: bold;
+  color: blue;
+}
+#teamRoster li {
+  list-style: square;
+}
+blockquote {
+  background-color: darkblue;
+  color: white;
+}
+.hyperLink:hover{
+  background-color: lightblue;
+  text-decoration: none;
+}
+.hyperLink:visited {
+  text-decoration: none;
+  color: orange;
+}
+#teamRoster li img{
+  display: none;
+}
+#teamRoster li:first-child ul {
+  position: relative;
+  display: block;
+}
+#teamRoster li:first-child ul:after {
+  content: "";
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: contain;
+  z-index: -1;
+  opacity: .30;
+}
+#teamRoster li:last-child ul {
+  position: relative;
+  display: block;
+}
+#teamRoster li:last-child ul:after {
+  content: "";
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: contain;
+  z-index: -1;
+  opacity: .30;
+}
+
+#teamRoster ol > li:first-child {
+  font-weight: bold;
+}
+#checkbox-grid > li {
+  list-style: none;
+}
